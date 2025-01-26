@@ -3,6 +3,51 @@ h1 {
 	border: 1px solid lightgray;
 }
 
-.text {
+.one {
 	color: LightBlue;
+	display: flex;
+	border: 1px solid lime;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+
+  margin-right: 5px;
+  position: absolute;
+}
+
+.contener {
+  display: flex;
+  position: relative;
+  background-color: #f0fff0;
+  width: 300px;
+  height: 350px;
+  border: 1px solid #000;
+}
+
+.green {
+  background-color: #32cd32;
+  left: 70px;
+  top: 70px;
+  z-index: 3;
+}
+
+.red {
+  background-color: #b22222;
+  top: 35px;
+  left: 35px;
+  z-index: 2;
+}
+
+.pink {
+  background-color: #c71585;
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  bottom: 0;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 128, 0.5);
 }
