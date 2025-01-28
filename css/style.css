@@ -272,7 +272,6 @@ src:
 }
 @font-face {
   font-family: Open-Sans;
-/*  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);*/
   src:
     url("../fonts/OpenSans-Bold.woff2") format("woff2"),
     url("../fonts/OpenSans-Bold.woff") format("woff");
@@ -289,8 +288,6 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-/*  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");*/
-background-image: url(../images/banner-bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -521,11 +518,11 @@ gap: 5px;
   margin-bottom: 60px;
 }
 
-.img-big-post {
+/*.img-big-post {
   background-color: #eff6f1;
   width: 381px;
   object-fit: cover;
-}
+}*/
 
 .post-info {
   margin-left: 32px;
@@ -702,7 +699,6 @@ gap: 5px;
   border: 0px solid #000;
   width: 50px;
   height: 49px;
-/*  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);*/
   background-image: url(../fonts/svg/search.svg);
   background-repeat: no-repeat;
   background-size: 50%;
@@ -855,6 +851,80 @@ gap: 5px;
 
 .title-top:hover {
   color: #b59f5b;
+}
+
+
+.shop {
+  height: 480px;
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  border: 1px dotted darkred;
+  margin: 0 auto;
+}
+
+
+.shop__content {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+
+.shop__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+  font-family: Open-Sans, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  padding-top: 25px;
+}
+
+.shop__title:after {
+  content: "";
+  display: block;
+  margin: 14px auto 0px;
+  opacity: 0.400;
+  width: 66px;
+  height: 3px;
+  background-color: #b59f5b;
+} 
+
+.shop__main {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+}
+
+.pic__shop{
+  background-color: #eff6f1;
+  width: 100%;
+}
+
+.box__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.button__price {
+  margin: 15px 0;
+}
+
+.text__price:before{
+  content: "500";
+  display: block;
+  text-decoration: line-through;
+
 }
 
 .footer {
