@@ -10,6 +10,7 @@
 <header class="header">
   <nav class="menu">
     <a href="#0" class="logo"><img src="fonts/svg/noemi-logo.svg" alt="логотип компании"></a>
+    <button type="button" class="tablet__menu"></button>
     <ul class="list">
       <li class="list-item"><a class="item" href="#0">Главная</a></li>
       <li class="list-item"><a class="item" href="#0">Посты</a></li>
@@ -291,7 +292,7 @@
   <div class="shop__main">
   <section class="shop__content">
     <picture>
-      <source srcset="images/shop-item-desk1.jpg">
+      <source srcset="images/shop-item-tablet1.jpg" media="(max-width:1200px)">
         <img  class="pic__shop" src="images/shop-item-desk1.jpg" alt="Картинка">
         </picture>
         <div class="shop__text">
@@ -305,7 +306,7 @@
   </section>
   <section class="shop__content">
     <picture>
-      <source srcset="images/shop-item-desk2.jpg">
+      <source srcset="images/shop-item-tablet2.jpg" media="(max-width:1200px)">
         <img  class="pic__shop" src="images/shop-item-desk2.jpg" alt="Картинка">
       </picture>
         <div class="shop__text"> 
@@ -317,7 +318,7 @@
   </section>
   <section class="shop__content">
     <picture>
-      <source srcset="images/shop-item-desk3.jpg">
+      <source srcset="images/shop-item-tablet3.jpg" media="(max-width:1200px)">
         <img  class="pic__shop" src="images/shop-item-desk3.jpg" alt="Картинка">
         </picture>
         <div class="shop__text"> 
@@ -350,7 +351,7 @@
         <option class="popup__list__item">Раз в несколько недель</option>
         <option class="popup__list__item">Несколько раз в год</option>
       </select>
-      <label class="label__popup">Вы подписаны на нашу рассылку</label>
+      <label class="label__popup">Вы подписаны на нашу рассылку?</label>
       <div class="radio__box">
       <input class="visually-hidden" type="radio" name="mail" id="radio__yes">
       <label class="label__radio" for="radio__yes">Да</label>
@@ -358,8 +359,8 @@
       <label class="label__radio" for="radio__no">Нет</label>
       </div>
       <label class="label__popup">Расскажите что бы вы хотели видеть на нашем сайте?</label>
-      <input type="text" name="text__aria" id="text__aria" placeholder="Может, больше рецептов?">
-      <button type="button">ОТПРАВИТЬ</button>
+      <textarea class="text__aria__popup" type="text" name="text__aria" id="text__aria" placeholder="Может, больше рецептов?"></textarea>
+      <button class="popup__button" type="button">ОТПРАВИТЬ</button>
     </div>
   </div>
 </div> 
