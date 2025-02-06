@@ -415,6 +415,7 @@ body {
 .trend__content {
   display: flex;
   flex-direction: column;
+  width: 100%;
   border: 3px solid #b59f5b;
   z-index: 2;
   padding: 20px;
@@ -1340,8 +1341,8 @@ body {
   }
 
   .trend__content {
-    margin: 0 100px 20px;
-    padding: 0;
+    margin: 0 10px 20px;
+    padding: 0 10px;
     box-sizing: border-box;
   }
 
