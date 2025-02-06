@@ -225,10 +225,12 @@
         </div>
       </div>
       <form class="search-field">
-        <label><span class="visually-hidden">Поле поиска постов на сайте</span>
+        <label class="box__field__search">
+          <span class="visually-hidden">Поле поиска постов на сайте</span>
           <input class="field" type="search" placeholder="Найти...">
+          <button class="search-btn" type="button">
         </label>
-        <button class="search-btn" type="button">
+        
           <span class="visually-hidden">Кнопка отправляющая запрос для поиска постов на сайте</span>
         </button>
       </form>
@@ -236,7 +238,8 @@
     <section class="side-menu">
       <h3 class="asibe-bar-title">Рассылка</h3>
       <form class="newsletter">
-        <label><span class="visually-hidden">Поле ввода электронной почты для подписки на новости сайта</span>
+        <label  class="box__field__search">
+          <span class="visually-hidden">Поле ввода электронной почты для подписки на новости сайта</span>
           <input class="sub" type="email" placeholder="Ваш email-адес...">
         </label>
 
@@ -293,8 +296,8 @@
   <div class="shop__main">
   <section class="shop__content">
     <picture class="pic__box">
+       <source srcset="images/shop-item-mobile1.jpg" media="(max-width:639px)">
       <source srcset="images/shop-item-tablet1.jpg" media="(max-width:1200px)">
-        <source srcset="images/shop-item-mobile1.jpg" media="(max-width:639px)">
         <img  class="pic__shop" src="images/shop-item-desk1.jpg" alt="Картинка">
         </picture>
         <div class="shop__text">
@@ -307,8 +310,9 @@
   </section>
   <section class="shop__content">
     <picture class="pic__box">
+       <source srcset="images/shop-item-mobile2.jpg" media="(max-width:639px)">
       <source srcset="images/shop-item-tablet2.jpg" media="(max-width:1200px)">
-        <source srcset="images/shop-item-mobile2.jpg" media="(max-width:639px)">
+       
         <img  class="pic__shop" src="images/shop-item-desk2.jpg" alt="Картинка">
       </picture>
         <div class="shop__text"> 
@@ -321,8 +325,8 @@
   </section>
   <section class="shop__content">
     <picture class="pic__box">
+      <source srcset="images/shop-item-mobile3.jpg" media="(max-width:639px)">
       <source srcset="images/shop-item-tablet3.jpg" media="(max-width:1200px)">
-        <source srcset="images/shop-item-mobile3.jpg" media="(max-width:639px)">
         <img  class="pic__shop" src="images/shop-item-desk3.jpg" alt="Картинка">
         </picture>
         <div class="shop__text"> 
