@@ -710,8 +710,7 @@ body {
 
 .sub {
   height: 49px;
-/*  width: 94%;*/
-  width: 100%;
+/*  width: 100%;*/
   padding-left: 15px;
   background-color: #f4f7f6;
   font-family: Open-Sans, sans-serif;
@@ -839,7 +838,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0 auto 150px;
+  margin: 0 auto 40px;
   box-sizing: border-box;
   padding: 0 15px;
 }
@@ -1266,7 +1265,7 @@ body {
   }
 
   .trend__content {
-    margin: 0 100px 20px;
+    margin: 0 50px 20px;
   }
 
   .content {
@@ -1356,6 +1355,8 @@ body {
 
   .trend__content {
     margin: 0 100px 20px;
+    padding: 0;
+    box-sizing: border-box;
   }
 
   .content {
