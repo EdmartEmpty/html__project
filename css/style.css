@@ -900,8 +900,7 @@ body {
 .shop__main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  /*  margin: 0 35px;*/
+
   gap: 15px;
 }
 
@@ -912,17 +911,15 @@ body {
 
 .pic__shop {
   background-color: #eff6f1;
-  /*  margin: 0 50px;*/
-  /*  width: 100%;*/
 }
 
 .shop__text {
   border: 3px solid #b59f5b;
   padding: 29px;
   margin-top: -25px;
-  /*min-height: 211px;
-  max-height: 100%;*/
-  /*  min-height: 50%;*/
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .title__price {
@@ -1256,12 +1253,18 @@ body {
     background-image: url(../images/banner-bg-tablet.jpg);
   }
 
+.logo {
+    margin-left: 0px;
+  }
+
   .sidebar {
     margin-left: 15px;
   }
 
   .tablet__menu {
     display: flex;
+    margin-bottom: 15px;
+    margin-right: 15px;
   }
 
   .box-title {
@@ -1274,6 +1277,7 @@ body {
 
   .trend__main {
     flex-wrap: wrap;
+    height: 100%;
   }
 
   .trend__box {
@@ -1300,7 +1304,7 @@ body {
   }
 
   .post-info {
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
   }
 
@@ -1322,7 +1326,6 @@ body {
   }
   .shop__content {
     width: calc(100% / 2 - 30px);
-    height: 100%;
   }
 
   .shop__text {
@@ -1351,11 +1354,18 @@ body {
     background-image: url(../images/banner-bg-tablet.jpg);
   }
 
+  .logo {
+    margin-left: 0px;
+
+  }
+
   .sidebar {
     margin-left: 15px;
   }
   .tablet__menu {
     display: flex;
+    margin-bottom: 15px;
+    margin-right: 15px;
   }
 
   .box-title {
@@ -1367,12 +1377,13 @@ body {
   }
 
   .trend__main {
+    height: 220px;
     flex-wrap: wrap;
   }
 
   .trend__box {
     display: flex;
-    width: calc(100% / 4 - 5px);
+    width: 24%;
     justify-content: center;
     align-items: flex-end;
   }
@@ -1396,7 +1407,7 @@ body {
   }
 
   .post-info {
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
   }
 
@@ -1417,7 +1428,7 @@ body {
   }
   .shop__content {
     width: calc(100% / 2 - 30px);
-    height: 100%;
+    
   }
 
   .shop__text {
@@ -1486,11 +1497,13 @@ body {
 
   .trend__main {
     flex-wrap: wrap;
+    height: 100%;
   }
 
   .trend__box {
     display: flex;
     width: 100%;
+    height: 250px;
     justify-content: center;
     align-items: flex-end;
   }
@@ -1525,7 +1538,9 @@ body {
     font-size: 16px;
   }
 
-
+  .shop {
+      width: 100%;
+    }
   .shop__main {
     flex-wrap: wrap;
     width: 100%;
@@ -1594,11 +1609,13 @@ body {
 
   .trend__main {
     flex-wrap: wrap;
+    height: 100%;
   }
 
   .trend__box {
     display: flex;
     width: 49%;
+    height: 250px;
     justify-content: center;
     align-items: flex-end;
   }
@@ -1637,6 +1654,9 @@ body {
     font-size: 16px;
   }
 
+  .shop {
+    width: 100%;
+  }
   .shop__main {
     flex-wrap: wrap;
     width: 100%;
