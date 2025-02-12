@@ -1495,7 +1495,7 @@ body {
 @media (max-width: 639px) and (orientation:portrait) {
   .header {
     background-image: url(../images/banner-mobile.jpg);
-    height: 100vh;
+    height: 541px;
   }
 
   .main {
@@ -1535,15 +1535,29 @@ body {
     width: 70%;
   }
 
+  .trends__title {
+     height: 33px;
+  }
+
   .trend__main {
     flex-wrap: wrap;
     height: 100%;
   }
 
+.box-trend-title {
+  margin: 3px 0px 20px 0;
+}
+
+.trend__content {
+    padding: 34px 19px 6px;
+    margin: 0px 16px 12
+}
+
+
   .trend__box {
     display: flex;
     width: 100%;
-    height: 250px;
+    min-height: 230px;
     justify-content: center;
     align-items: flex-end;
   }
