@@ -1390,26 +1390,30 @@ body {
 
   .shop {
     width: 100%;
+    margin: 0 auto 44px;
   }
 
   .shop__main {
+    margin-left: 31px;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    gap: 10px;
+    gap: 34px;
   }
 
   .shop__content {
-    width: 46%;
+    width: 44%;
 /*    padding: 5px;*/
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+/*    margin-left: 10px;*/
   }
 
   .shop__text {
     min-width: 70%;
     padding: 20px;
+    min-height: 200px;
   }
 
   .footer {
@@ -1592,7 +1596,7 @@ body {
 
   .welcome__logo {
     display: flex;
-    width: 100%;
+    width: 264px;
   }
 
   .welcome-title {
@@ -1602,7 +1606,8 @@ body {
   }
 
   .box-title {
-    width: 70%;
+    width: 94%;
+    padding-top: 180px;
   }
 
   .trends__title {
@@ -1633,6 +1638,7 @@ body {
   }
 
   .content {
+    margin: 40px auto 0px;
     flex-wrap: wrap;
     width: 100%;
     flex-direction: column;
@@ -1649,6 +1655,19 @@ body {
   }
   .img-post-news{
    width: 100%;
+}
+
+.box-post-title {
+    margin: 6px 0 13px;
+}
+
+.avtor {
+    margin-bottom: 15px;
+}
+
+.text {
+  line-height: 1;
+  margin-top: 0px;
 }
   .post-info {
     width: 100%;
