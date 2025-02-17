@@ -1288,8 +1288,12 @@ body {
 }
 
 
+.trends {
+  height: 590px;
+}
+
 .trends__title {
-  height: 55px;
+  height: 70px;
   font-size: 18px;
   margin-bottom: 8px;
 }
@@ -1323,7 +1327,8 @@ body {
 
   .trend__main {
     flex-wrap: wrap;
-    min-height: 470px;
+    min-height: 100%;
+    gap: 5px;
   }
 
   .box-trend-title {
@@ -1331,16 +1336,19 @@ body {
 }
 
   .trend__box {
-    width: 49%;
+    width: calc(100% / 2 - 5px);
     display: flex;
     justify-content: center;
     align-items: flex-end;
   }
 
   .trend__content {
-    margin: 0 50px 20px;
+    margin: 0 18px 33px;
   }
 
+.link-list{
+  margin: 0 0 0 0;
+}
   .content {
     width: 93%;
     padding: 0;
@@ -1412,22 +1420,35 @@ body {
   }
 
 .menu {
-  padding: 50px 21px 0px;
+  padding: 40px 21px 0px;
+}
+
+.logo__img {
+  width: 160px;
 }
 
   .logo {
-    margin-left: 13px;
+    margin-left: 38px;
     width: 163px;
   }
 
+.box-title {
+    width: 84%;
+  }
 
+
+.welcome-title {
+    font-size: 40px;
+    line-height: 1;
+}
   .sidebar {
     margin-left: 15px;
   }
   .tablet__menu {
     display: flex;
     margin-bottom: 15px;
-    margin-right: 15px;
+    margin-right: 50px;
+    margin-top: 17px;
   }
 
   .welcome-title {
@@ -1438,6 +1459,11 @@ body {
     display: none;
   }
 
+  .trends__title {
+    margin-top: 25px;
+    margin-bottom: 0;
+
+}
   .trend__main {
     height: 220px;
     flex-wrap: wrap;
